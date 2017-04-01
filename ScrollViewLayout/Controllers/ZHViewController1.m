@@ -20,6 +20,7 @@
     _img1View.image = [UIImage imageNamed:@"img6"];
     _img2View.image = [UIImage imageNamed:@"img7"];
     _img3View.image = [UIImage imageNamed:@"img8"];
+  
     // Do any additional setup after loading the view from its nib.
 }
 

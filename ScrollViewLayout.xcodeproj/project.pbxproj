@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9E4F0F411E8A12FE00A3232F /* UIView+ZHCMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4F0F401E8A12FE00A3232F /* UIView+ZHCMessages.m */; };
 		9E4F0F441E8A2FB500A3232F /* ZHViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4F0F431E8A2FB500A3232F /* ZHViewController4.m */; };
+		9E4F0FF21E8F578400A3232F /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4F0FF01E8F578400A3232F /* ViewController5.m */; };
+		9E4F0FF31E8F578400A3232F /* ViewController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E4F0FF11E8F578400A3232F /* ViewController5.xib */; };
 		9E63BEA61E7A653D001CD191 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E63BEA51E7A653D001CD191 /* main.m */; };
 		9E63BEA91E7A653D001CD191 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E63BEA81E7A653D001CD191 /* AppDelegate.m */; };
 		9E63BEAF1E7A653D001CD191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E63BEAD1E7A653D001CD191 /* Main.storyboard */; };
@@ -47,6 +49,9 @@
 		9E4F0F401E8A12FE00A3232F /* UIView+ZHCMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZHCMessages.m"; sourceTree = "<group>"; };
 		9E4F0F421E8A2FB500A3232F /* ZHViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHViewController4.h; sourceTree = "<group>"; };
 		9E4F0F431E8A2FB500A3232F /* ZHViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHViewController4.m; sourceTree = "<group>"; };
+		9E4F0FEF1E8F578400A3232F /* ViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
+		9E4F0FF01E8F578400A3232F /* ViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
+		9E4F0FF11E8F578400A3232F /* ViewController5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController5.xib; sourceTree = "<group>"; };
 		9E63BEA11E7A653D001CD191 /* ScrollViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E63BEA51E7A653D001CD191 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E63BEA71E7A653D001CD191 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -186,6 +191,9 @@
 				9EB4BAE41E7F838C00113D0A /* ZHViewController3.xib */,
 				9E4F0F421E8A2FB500A3232F /* ZHViewController4.h */,
 				9E4F0F431E8A2FB500A3232F /* ZHViewController4.m */,
+				9E4F0FEF1E8F578400A3232F /* ViewController5.h */,
+				9E4F0FF01E8F578400A3232F /* ViewController5.m */,
+				9E4F0FF11E8F578400A3232F /* ViewController5.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -300,6 +308,7 @@
 				9E63BEE71E7A67AC001CD191 /* ZHViewController1.xib in Resources */,
 				9E63BEB41E7A653D001CD191 /* LaunchScreen.storyboard in Resources */,
 				9EB4BAE11E7F6C4D00113D0A /* ZHViewController2.xib in Resources */,
+				9E4F0FF31E8F578400A3232F /* ViewController5.xib in Resources */,
 				9E63BEB11E7A653D001CD191 /* Assets.xcassets in Resources */,
 				9EB4BAE61E7F838C00113D0A /* ZHViewController3.xib in Resources */,
 				9E63BEAF1E7A653D001CD191 /* Main.storyboard in Resources */,
@@ -332,6 +341,7 @@
 				9E63BEA91E7A653D001CD191 /* AppDelegate.m in Sources */,
 				9E4F0F441E8A2FB500A3232F /* ZHViewController4.m in Sources */,
 				9E4F0F411E8A12FE00A3232F /* UIView+ZHCMessages.m in Sources */,
+				9E4F0FF21E8F578400A3232F /* ViewController5.m in Sources */,
 				9E63BEA61E7A653D001CD191 /* main.m in Sources */,
 				9EB4BAE51E7F838C00113D0A /* ZHViewController3.m in Sources */,
 				9EB4BAE01E7F6C4D00113D0A /* ZHViewController2.m in Sources */,

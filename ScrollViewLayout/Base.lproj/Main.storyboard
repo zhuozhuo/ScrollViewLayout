@@ -47,30 +47,6 @@
             </objects>
             <point key="canvasLocation" x="432" y="44"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="NEk-BS-AEg">
-            <objects>
-                <viewController id="zlT-hy-hjL" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="7jU-fS-fBh"/>
-                        <viewControllerLayoutGuide type="bottom" id="0pV-RH-igJ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="88d-Eh-zBw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qV1-sX-Wha">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tse-Qb-nwV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1150" y="25"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Yo3-wL-sj9">
             <objects>

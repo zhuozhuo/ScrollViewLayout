@@ -11,6 +11,7 @@
 #import "ZHViewController2.h"
 #import "ZHViewController3.h"
 #import "ZHViewController4.h"
+#import "ViewController5.h"
 
 
 @interface ZHRootTableViewController (){
@@ -24,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tableView.tableFooterView = [UIView new];
-    titles = @[@"容器视图+高度自动",@"容器视图+高度手动",@"无容器视图+高度自动",@"纯代码滑动图片"];
+    titles = @[@"容器视图+高度自动",@"容器视图+高度手动",@"无容器视图+高度自动",@"纯代码滑动图片",@"测试"];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -46,7 +47,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return titles.count;
+    return titles.count ;
 }
 
 
@@ -81,6 +82,11 @@
         case 3:{
             ZHViewController4 *VC4 = [[ZHViewController4 alloc]init];
             [self.navigationController pushViewController:VC4 animated:YES];
+        }
+            break;
+        case 4:{
+            ViewController5 *vc = [[ViewController5 alloc]initWithNibName:@"ViewController5" bundle:[NSBundle mainBundle]];
+            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         default:
